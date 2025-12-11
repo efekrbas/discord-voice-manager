@@ -1,4 +1,3 @@
-#Read
 
 - First, open install.bat and install the modules
   

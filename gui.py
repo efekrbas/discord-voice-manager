@@ -102,14 +102,18 @@ class MainWindow(QMainWindow):
 
         # Footer Area
         self.footer = QFrame()
-        self.footer.setFixedHeight(30)
+        self.footer.setFixedHeight(40)
         self.footer_layout = QHBoxLayout(self.footer)
-        self.footer_layout.setContentsMargins(0, 0, 20, 5)
+        self.footer_layout.setContentsMargins(20, 0, 20, 5)
+        
+        about_lbl = QLabel("Manage your Discord accounts voice activity 24/7")
+        about_lbl.setStyleSheet("color: #555; font-size: 10px; font-style: italic;")
+        self.footer_layout.addWidget(about_lbl)
         self.footer_layout.addStretch()
         
         self.credit_lbl = QLabel("Developed by Efe Kırbaş")
         self.credit_lbl.setFont(QFont("Outfit", 9))
-        self.credit_lbl.setStyleSheet("color: #444; background: transparent;")
+        self.credit_lbl.setStyleSheet("color: #888; font-weight: bold; font-size: 11px;")
         self.footer_layout.addWidget(self.credit_lbl)
         
         self.core_layout.addWidget(self.footer)

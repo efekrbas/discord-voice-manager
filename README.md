@@ -48,5 +48,12 @@
 - It is recommended that accounts be phone or email verified for joining servers smoothly.
 - Thanks to April 2026 updates, the "Update your application" error has been resolved by 99%.
 
+## ⚡ 24/7 Uptime Recommendations
+
+- **Stable Internet:** A wired connection (Ethernet) is highly recommended for long-term stability.
+- **Power Settings:** Disable "Sleep" and "Hibernate" modes on your Windows PC to prevent the application from pausing.
+- **VDS/VPS Usage:** For 100% uptime without leaving your personal computer on, running this tool on a Virtual Private Server (VPS) is recommended.
+- **Auto-Reconnect:** The application includes a built-in recovery loop that automatically restores bot connections after network fluctuations or Discord gateway resets.
+
 ---
 **Developed by Efe Kırbaş**

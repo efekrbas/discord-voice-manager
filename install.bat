@@ -1,6 +1,7 @@
 @echo off
-pip uninstall websocket -y
-pip install pystyle
-pip install websockets
-pip install colorama
-pip install websocket-client
+title Discord Voice Manager Installer
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Installation complete! You can now use run_hidden.vbs to start the program without a console.
+pause

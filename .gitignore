@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# PyInstaller / EXE
+build/
+dist/
+*.spec
+*.exe
+
+# Sensitive Data
+tokens.txt
+session.json
+*.log
+
+# IDEs
+.vscode/
+.idea/

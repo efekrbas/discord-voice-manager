@@ -39,7 +39,7 @@
 
 ## 📋 Usage
 
-- **Dashboard:** Enter Server and Channel ID to join all bots or issue bulk commands.
+- **Dashboard:** Enter Server and Channel ID to join all tokens or issue bulk commands.
 - **Accounts:** Monitor live bot status (Connected/Disconnected) and toggle microphone/headphones instantly using the lock button.
 - **Settings:** Choose your favorite theme via "Appearance Mode" in the bottom-left.
 
